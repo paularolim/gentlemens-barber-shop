@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+/**********************************************************/
+
+/******************** Header e Footer *********************/
+
+/**********************************************************/
+
+.header-container {
+    background-image: url("../img/header.jpg");
+    background-size: 100%;
+    background-position: center bottom;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.img-logo {
+    height: 100px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fefefe;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    transition: 0.8s all;
+}
+
+nav a:hover {
+    color: #E39000;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+
+.header-content {
+    width: 960px;
+    margin: 60px auto;
+}
+
+.header-content h2 {
+    font-family: 'Pacifico';
+    font-size: 32px;
+    color: #E39000;
+    margin: 0 0 10px 0;
+}
+
+.header-content p {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+.header-container button {
+    background-color: #E39000;
+    width: 250px;
+    border: 0;
+    margin: 40px 0 0 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #fefefe;
+    text-transform: uppercase;
+    transition: 0.8 background-color;
+}
+
+.header-container button:hover {
+    background-color: #d69d3a;
+}
+
+.footer-container {
+    width: 100vw;
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+
+.footer-hours {
+    background-color: #11263D;
+    padding: 25px;
+}
+
+.footer-hours h2 {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 22px;
+    color: #E39000;
+}
+.footer-hours p {
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+.footer-creator {
+    background-color: #11263D;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fefefe;
+    padding: 15px;
+}
+
+/**********************************************************/
+
+/******************** Home *********************/
+
+/**********************************************************/
+
+.depositions-container {
+    width: 100%;
+    position: absolute;
+    top: 90vh;
+    box-sizing: border-box;
+}
+
+.depositions-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.depositions-content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.depositions-content li {
+    background-color: #11263D;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 28px 20px;
+}
+
+.deposition-title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+    color: #E39000;
+}
+
+.deposition-description {
+    font-size: 20px;
+    margin: 25px 0;
+    height: 120px;
+    color: #fefefe;
+}
+
+.deposition-name {
+    border-left: 2px solid #E39000;
+    padding: 5px 10px;
+    font-weight: 100;
+    color: #fefefe;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.about-container {
+    width: 100vw;
+    margin: 280px 0 0 0;
+}
+
+.about-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-content img {
+    width: 45%;
+}
+
+.about-text {
+    width: 45%;
+    vertical-align: top;
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.about-title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+    color: #E39000;
+}
+
+.about-subtitle {
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.about-line {
+    border: 2px solid #E39000;
+    margin: 0 0 30px 0;
+}
+
+.about-description {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+}
