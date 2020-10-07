@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
+    background-color: #f0f0f0;
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
 }
@@ -47,7 +48,7 @@ nav a {
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fefefe;
+    color: #f0f0f0;
     letter-spacing: 2px;
     padding: 5px 10px;
     transition: 0.8s all;
@@ -55,7 +56,7 @@ nav a {
 
 nav a:hover {
     color: #E39000;
-    background-color: #fefefe;
+    background-color: #f0f0f0;
     border-radius: 8px;
 }
 
@@ -74,7 +75,7 @@ nav a:hover {
 .header-content p {
     font-size: 55px;
     font-weight: bold;
-    color: #fefefe;
+    color: #f0f0f0;
 }
 
 .header-container button {
@@ -86,7 +87,7 @@ nav a:hover {
     border-radius: 10px;
     font-size: 25px;
     font-weight: 200;
-    color: #fefefe;
+    color: #f0f0f0;
     text-transform: uppercase;
     transition: 0.8 background-color;
 }
@@ -112,7 +113,7 @@ nav a:hover {
     color: #E39000;
 }
 .footer-hours p {
-    color: #fefefe;
+    color: #f0f0f0;
     font-size: 18px;
     font-weight: 400;
     margin: 10px 0 0 0;
@@ -124,7 +125,7 @@ nav a:hover {
     font-weight: 200;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fefefe;
+    color: #f0f0f0;
     padding: 15px;
 }
 
@@ -154,6 +155,7 @@ nav a:hover {
 .depositions-content li {
     background-color: #11263D;
     width: 300px;
+    border-radius: 5px 30px;
     box-sizing: border-box;
     padding: 28px 20px;
 }
@@ -168,14 +170,14 @@ nav a:hover {
     font-size: 20px;
     margin: 25px 0;
     height: 120px;
-    color: #fefefe;
+    color: #f0f0f0;
 }
 
 .deposition-name {
     border-left: 2px solid #E39000;
     padding: 5px 10px;
     font-weight: 100;
-    color: #fefefe;
+    color: #f0f0f0;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -192,6 +194,7 @@ nav a:hover {
 
 .about-content img {
     width: 45%;
+    border-radius: 5px 30px;
 }
 
 .about-text {
